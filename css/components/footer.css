@@ -1,0 +1,29 @@
+.footer {
+  background: #2C2B2B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.footer .text {
+  color: #646464;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+li i {
+  color: limegreen;
+}
